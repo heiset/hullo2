@@ -3,3 +3,16 @@ contact_links:
   - name: Support
     url: https://github.com/mmistakes/minimal-mistakes/discussions
     about: Please post your support questions in the Discussions section.
+
+    defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
